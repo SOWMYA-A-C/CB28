@@ -98,14 +98,14 @@ function draw() {
 
 function mouseDragged()
 {
-	Matter.Body.setPosition(paperObject.body, {x:mouseX, y:mouseY})
+// 	Matter.Body.setPosition(paperObject.body, {x:, y:})
   
 }
 
 function mouseReleased()
 {
 	
-	launcherObject.fly();
+	
  
 }
 
